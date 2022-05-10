@@ -1,5 +1,6 @@
 import time
 
+#Create our quiz variables
 introduction = "\n\nWelcome to this mini personality quiz!\n\n"
 first_question = "Question 1: You regularly make new friends"
 second_question = "Question 2: You often make a back up plan for a back up plan"
@@ -29,6 +30,7 @@ print(standard_answers)
 print("\nEnter Answer")
 answer3 = int(input("=>"))
 
+#Score our quiz
 if answer1 < 3: 
     trait1 = "extroverted"
 else:
@@ -46,8 +48,11 @@ if answer3 < 3:
 else:
     trait3 = "nervous"
 
+#Embed the final traits in a string
 score = f"Your personality can be described as {trait1}, {trait2} and {trait3}."
 
+
+#print the final score with DRAMATIC time pause
 print("\n\nCalculating your score...")
 time.sleep(3)
 print(score)
