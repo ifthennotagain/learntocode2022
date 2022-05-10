@@ -1,3 +1,9 @@
+
+'''
+This is a mini personality quiz from video 1 in my "learn to code in 2022" video series. 
+'''
+
+
 import time
 
 #Create our quiz variables
